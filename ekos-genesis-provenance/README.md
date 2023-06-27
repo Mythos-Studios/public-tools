@@ -48,7 +48,7 @@ You can download and run this tool to recreate the provenance hash we pushed on-
 
 Clone our public tools repo:
 ```
-$: git clone git@github.com:MythosSudios/public-tools.git
+$: git clone git@github.com:Mythos-Studios/public-tools.git
 ```
 
 Go to the provenance tool directory:
