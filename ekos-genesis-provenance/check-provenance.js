@@ -23,7 +23,13 @@ shuffledData.map(function (key, value) {
     iKey++;
 })
 
-fs.writeFile('shuffled-final.json', JSON.stringify(shuffledData, null, 2), 'utf8', function (err) {
+// pack it back into the array for the checksum.
+var shuffledArray = [];
+for (var i = 0; i < dataArray.length; i++) {
+    shuffledArray[shuffledData[i].key] = shuffledData[i].value[0];
+}
+
+fs.writeFile('shuffled-final.json', JSON.stringify(shuffledArray), 'utf8', function (err) {
     if (err) throw err;
     console.log('complete');
 });
