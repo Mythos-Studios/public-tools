@@ -40,7 +40,7 @@ That hash was then written into the Ethereum blockchain as provenance on April 2
 #### Step Six: The Auction Completed
 During the auction for the Ekos Genesis Art Collection, we took ETH deposits, in-order, and escrowed the funds to avoid high ETH gas prices.  When the auction completed, all of the NFTs were distributed to the wallets that participated in the auction in the order in which they deposited.  You can read more about the entire auction in depth in our FAQs here: https://www.ekos.io/faq
 
-Once it was time to distribute the tokens, we batch-sent the NFTs and the deposit residuals, in-order from the final leaderboard finish, and walkied through the shuffled list, all from a single transaction here: 
+Once it was time to distribute the tokens, we batch-sent the NFTs and the deposit residuals, in-order from the final leaderboard finish, and walked through the shuffled list, all from a single transaction here: 
 https://etherscan.io/tx/0x88aeb9bb8ac54b47a438f74c7d8ecf21928cd77a88e89956e8e9d1754fa4a5de
 
 ### Recreating the Proof of Random
